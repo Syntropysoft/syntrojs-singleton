@@ -12,7 +12,7 @@ Runs on every push and pull request to `main` and `develop` branches.
 **Jobs:**
 - **Test on Node.js** (18.x, 20.x, 22.x)
   - Checkout code
-  - Install dependencies with pnpm
+  - Install dependencies with npm
   - Lint code with Biome
   - Type check with TypeScript
   - Build the project
@@ -169,9 +169,9 @@ All workflows can be monitored at:
 
 1. **Always run CI locally before pushing:**
    ```bash
-   pnpm lint
-   pnpm test:coverage
-   pnpm build
+   npm run lint
+   npm run test:coverage
+   npm run build
    ```
 
 2. **Keep dependencies updated:**
