@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach } from "vitest";
+import { beforeEach, describe, expect, it } from "vitest";
 import { getRegistry } from "../src/index.ts";
 
 describe("Registry - Vanilla JavaScript", () => {
@@ -66,9 +66,7 @@ describe("Registry - Vanilla JavaScript", () => {
     });
 
     it("should throw error if instance not found", () => {
-      expect(() => registry.get("nonexistent")).toThrow(
-        "Instance 'nonexistent' not found",
-      );
+      expect(() => registry.get("nonexistent")).toThrow("Instance 'nonexistent' not found");
     });
   });
 
@@ -192,4 +190,3 @@ describe("Registry - Vanilla JavaScript", () => {
     });
   });
 });
-
