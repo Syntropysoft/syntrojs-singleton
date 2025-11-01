@@ -1,0 +1,1262 @@
+{
+  "files": {
+    "src/index.ts": {
+      "language": "typescript",
+      "mutants": [
+        {
+          "id": "4",
+          "mutatorName": "StringLiteral",
+          "replacement": "``",
+          "statusReason": "Ignored because of excluded mutation \"StringLiteral\"",
+          "status": "Ignored",
+          "static": false,
+          "location": {
+            "end": {
+              "column": 62,
+              "line": 27
+            },
+            "start": {
+              "column": 23,
+              "line": 27
+            }
+          }
+        },
+        {
+          "id": "9",
+          "mutatorName": "StringLiteral",
+          "replacement": "\"\"",
+          "statusReason": "Ignored because of excluded mutation \"StringLiteral\"",
+          "status": "Ignored",
+          "static": false,
+          "location": {
+            "end": {
+              "column": 71,
+              "line": 32
+            },
+            "start": {
+              "column": 62,
+              "line": 32
+            }
+          }
+        },
+        {
+          "id": "10",
+          "mutatorName": "ObjectLiteral",
+          "replacement": "{}",
+          "statusReason": "Ignored because of excluded mutation \"ObjectLiteral\"",
+          "status": "Ignored",
+          "static": false,
+          "location": {
+            "end": {
+              "column": 6,
+              "line": 39
+            },
+            "start": {
+              "column": 37,
+              "line": 34
+            }
+          }
+        },
+        {
+          "id": "19",
+          "mutatorName": "StringLiteral",
+          "replacement": "``",
+          "statusReason": "Ignored because of excluded mutation \"StringLiteral\"",
+          "status": "Ignored",
+          "static": false,
+          "location": {
+            "end": {
+              "column": 53,
+              "line": 54
+            },
+            "start": {
+              "column": 23,
+              "line": 54
+            }
+          }
+        },
+        {
+          "id": "24",
+          "mutatorName": "ObjectLiteral",
+          "replacement": "{}",
+          "statusReason": "Ignored because of excluded mutation \"ObjectLiteral\"",
+          "status": "Ignored",
+          "static": false,
+          "location": {
+            "end": {
+              "column": 6,
+              "line": 88
+            },
+            "start": {
+              "column": 63,
+              "line": 85
+            }
+          }
+        },
+        {
+          "id": "1",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "true",
+          "statusReason": "Instance 'test' already registered",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "17"
+          ],
+          "coveredBy": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "7",
+            "9",
+            "12",
+            "13",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "24",
+            "26",
+            "29",
+            "30",
+            "32",
+            "33"
+          ],
+          "location": {
+            "end": {
+              "column": 32,
+              "line": 26
+            },
+            "start": {
+              "column": 9,
+              "line": 26
+            }
+          }
+        },
+        {
+          "id": "0",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "expected false to be true // Object.is equality",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "0"
+          ],
+          "coveredBy": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "7",
+            "9",
+            "12",
+            "13",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "24",
+            "26",
+            "29",
+            "30",
+            "32",
+            "33"
+          ],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 42
+            },
+            "start": {
+              "column": 63,
+              "line": 25
+            }
+          }
+        },
+        {
+          "id": "2",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "false",
+          "statusReason": "expected [Function] to throw an error",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 4,
+          "killedBy": [
+            "20"
+          ],
+          "coveredBy": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "7",
+            "9",
+            "12",
+            "13",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "24",
+            "26",
+            "29",
+            "30",
+            "32",
+            "33"
+          ],
+          "location": {
+            "end": {
+              "column": 32,
+              "line": 26
+            },
+            "start": {
+              "column": 9,
+              "line": 26
+            }
+          }
+        },
+        {
+          "id": "3",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "expected [Function] to throw an error",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3",
+            "20"
+          ],
+          "location": {
+            "end": {
+              "column": 6,
+              "line": 28
+            },
+            "start": {
+              "column": 34,
+              "line": 26
+            }
+          }
+        },
+        {
+          "id": "5",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "true",
+          "statusReason": "expected true to be 'TestClass' // Object.is equality",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 2,
+          "killedBy": [
+            "18"
+          ],
+          "coveredBy": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "7",
+            "9",
+            "12",
+            "13",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "24",
+            "26",
+            "29",
+            "30",
+            "32",
+            "33"
+          ],
+          "location": {
+            "end": {
+              "column": 71,
+              "line": 32
+            },
+            "start": {
+              "column": 29,
+              "line": 32
+            }
+          }
+        },
+        {
+          "id": "6",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "false",
+          "statusReason": "expected false to be 'TestClass' // Object.is equality",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 2,
+          "killedBy": [
+            "1"
+          ],
+          "coveredBy": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "7",
+            "9",
+            "12",
+            "13",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "24",
+            "26",
+            "29",
+            "30",
+            "32",
+            "33"
+          ],
+          "location": {
+            "end": {
+              "column": 71,
+              "line": 32
+            },
+            "start": {
+              "column": 29,
+              "line": 32
+            }
+          }
+        },
+        {
+          "id": "7",
+          "mutatorName": "LogicalOperator",
+          "replacement": "instanceObj.constructor?.name && \"Unknown\"",
+          "statusReason": "expected 'Unknown' to be 'TestClass' // Object.is equality",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 2,
+          "killedBy": [
+            "18"
+          ],
+          "coveredBy": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "7",
+            "9",
+            "12",
+            "13",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "24",
+            "26",
+            "29",
+            "30",
+            "32",
+            "33"
+          ],
+          "location": {
+            "end": {
+              "column": 71,
+              "line": 32
+            },
+            "start": {
+              "column": 29,
+              "line": 32
+            }
+          }
+        },
+        {
+          "id": "11",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "true",
+          "statusReason": "expected true to be 'TestClass' // Object.is equality",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 2,
+          "killedBy": [
+            "18"
+          ],
+          "coveredBy": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "7",
+            "9",
+            "12",
+            "13",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "24",
+            "26",
+            "29",
+            "30",
+            "32",
+            "33"
+          ],
+          "location": {
+            "end": {
+              "column": 36,
+              "line": 37
+            },
+            "start": {
+              "column": 13,
+              "line": 37
+            }
+          }
+        },
+        {
+          "id": "8",
+          "mutatorName": "OptionalChaining",
+          "replacement": "instanceObj.constructor.name",
+          "status": "Survived",
+          "static": false,
+          "testsCompleted": 24,
+          "coveredBy": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "7",
+            "9",
+            "12",
+            "13",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "24",
+            "26",
+            "29",
+            "30",
+            "32",
+            "33"
+          ],
+          "location": {
+            "end": {
+              "column": 58,
+              "line": 32
+            },
+            "start": {
+              "column": 29,
+              "line": 32
+            }
+          }
+        },
+        {
+          "id": "12",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "false",
+          "statusReason": "expected false to be 'TestClass' // Object.is equality",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 2,
+          "killedBy": [
+            "18"
+          ],
+          "coveredBy": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "7",
+            "9",
+            "12",
+            "13",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "24",
+            "26",
+            "29",
+            "30",
+            "32",
+            "33"
+          ],
+          "location": {
+            "end": {
+              "column": 36,
+              "line": 37
+            },
+            "start": {
+              "column": 13,
+              "line": 37
+            }
+          }
+        },
+        {
+          "id": "13",
+          "mutatorName": "LogicalOperator",
+          "replacement": "type && constructorName",
+          "statusReason": "expected undefined to be 'TestClass' // Object.is equality",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 2,
+          "killedBy": [
+            "18"
+          ],
+          "coveredBy": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "7",
+            "9",
+            "12",
+            "13",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "24",
+            "26",
+            "29",
+            "30",
+            "32",
+            "33"
+          ],
+          "location": {
+            "end": {
+              "column": 36,
+              "line": 37
+            },
+            "start": {
+              "column": 13,
+              "line": 37
+            }
+          }
+        },
+        {
+          "id": "14",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "expected undefined to be { value: 'test' } // Object.is equality",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "21"
+          ],
+          "coveredBy": [
+            "4",
+            "5",
+            "6",
+            "15",
+            "16",
+            "21",
+            "22",
+            "23",
+            "32",
+            "33"
+          ],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 57
+            },
+            "start": {
+              "column": 27,
+              "line": 51
+            }
+          }
+        },
+        {
+          "id": "15",
+          "mutatorName": "BooleanLiteral",
+          "replacement": "entry",
+          "statusReason": "Instance 'test' not found",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "21"
+          ],
+          "coveredBy": [
+            "4",
+            "5",
+            "6",
+            "15",
+            "16",
+            "21",
+            "22",
+            "23",
+            "32",
+            "33"
+          ],
+          "location": {
+            "end": {
+              "column": 15,
+              "line": 53
+            },
+            "start": {
+              "column": 9,
+              "line": 53
+            }
+          }
+        },
+        {
+          "id": "16",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "true",
+          "statusReason": "Instance 'test' not found",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "21"
+          ],
+          "coveredBy": [
+            "4",
+            "5",
+            "6",
+            "15",
+            "16",
+            "21",
+            "22",
+            "23",
+            "32",
+            "33"
+          ],
+          "location": {
+            "end": {
+              "column": 15,
+              "line": 53
+            },
+            "start": {
+              "column": 9,
+              "line": 53
+            }
+          }
+        },
+        {
+          "id": "17",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "false",
+          "statusReason": "expected [Function] to throw error including 'Instance \\'nonexistent\\' not found' but got 'Cannot read properties of undefined (…'",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 3,
+          "killedBy": [
+            "23"
+          ],
+          "coveredBy": [
+            "4",
+            "5",
+            "6",
+            "15",
+            "16",
+            "21",
+            "22",
+            "23",
+            "32",
+            "33"
+          ],
+          "location": {
+            "end": {
+              "column": 15,
+              "line": 53
+            },
+            "start": {
+              "column": 9,
+              "line": 53
+            }
+          }
+        },
+        {
+          "id": "18",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "expected [Function] to throw error including 'Instance \\'nonexistent\\' not found' but got 'Cannot read properties of undefined (…'",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "23"
+          ],
+          "coveredBy": [
+            "6",
+            "23"
+          ],
+          "location": {
+            "end": {
+              "column": 6,
+              "line": 55
+            },
+            "start": {
+              "column": 17,
+              "line": 53
+            }
+          }
+        },
+        {
+          "id": "20",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "expected undefined to be 'TestClass' // Object.is equality",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "18"
+          ],
+          "coveredBy": [
+            "1",
+            "2",
+            "9",
+            "10",
+            "18",
+            "19",
+            "26",
+            "27"
+          ],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 67
+            },
+            "start": {
+              "column": 53,
+              "line": 65
+            }
+          }
+        },
+        {
+          "id": "21",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "expected undefined to be true // Object.is equality",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "17"
+          ],
+          "coveredBy": [
+            "0",
+            "7",
+            "8",
+            "13",
+            "15",
+            "17",
+            "24",
+            "25",
+            "30",
+            "32"
+          ],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 77
+            },
+            "start": {
+              "column": 30,
+              "line": 75
+            }
+          }
+        },
+        {
+          "id": "22",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "expected undefined to deeply equal []",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "28"
+          ],
+          "coveredBy": [
+            "11",
+            "12",
+            "13",
+            "28",
+            "29",
+            "30",
+            "33"
+          ],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 89
+            },
+            "start": {
+              "column": 49,
+              "line": 84
+            }
+          }
+        },
+        {
+          "id": "23",
+          "mutatorName": "ArrowFunction",
+          "replacement": "() => undefined",
+          "statusReason": "expected [ undefined, undefined, undefined ] to deep equally contain { name: 'redis', type: 'Redis' }",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 2,
+          "killedBy": [
+            "29"
+          ],
+          "coveredBy": [
+            "11",
+            "12",
+            "13",
+            "28",
+            "29",
+            "30",
+            "33"
+          ],
+          "location": {
+            "end": {
+              "column": 7,
+              "line": 88
+            },
+            "start": {
+              "column": 51,
+              "line": 85
+            }
+          }
+        },
+        {
+          "id": "25",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "Instance 'test' already registered",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 2,
+          "killedBy": [
+            "18"
+          ],
+          "coveredBy": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33"
+          ],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 96
+            },
+            "start": {
+              "column": 17,
+              "line": 94
+            }
+          }
+        },
+        {
+          "id": "26",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "Cannot read properties of undefined (reading 'clear')",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "17"
+          ],
+          "coveredBy": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33"
+          ],
+          "location": {
+            "end": {
+              "column": 2,
+              "line": 109
+            },
+            "start": {
+              "column": 41,
+              "line": 107
+            }
+          }
+        }
+      ],
+      "source": "/**\n * Registry Entry interface\n */\nexport interface RegistryEntry<T = unknown> {\n  name: string;\n  instance: T;\n  type: string;\n  constructor: new (...args: unknown[]) => unknown;\n}\n\n/**\n * Registry - A simple dictionary for storing and retrieving instances by name\n */\nexport class Registry {\n  #entries = new Map<string, RegistryEntry>();\n\n  /**\n   * Stores an instance in the dictionary under a unique name.\n   *\n   * @param name - Unique name for the instance\n   * @param instance - The instance to store\n   * @param type - Optional type label (e.g., 'Redis', 'Axios'). If omitted, inferred from constructor\n   * @throws Error if name is already registered\n   */\n  register<T>(name: string, instance: T, type?: string): void {\n    if (this.#entries.has(name)) {\n      throw new Error(`Instance '${name}' already registered`);\n    }\n\n    // Safe access to constructor for type inference\n    const instanceObj = instance as { constructor?: { name?: string } };\n    const constructorName = instanceObj.constructor?.name || \"Unknown\";\n\n    const entry: RegistryEntry<T> = {\n      name,\n      instance,\n      type: type || constructorName,\n      constructor: (instanceObj.constructor || Object) as new (...args: unknown[]) => unknown,\n    };\n\n    this.#entries.set(name, entry);\n  }\n\n  /**\n   * Retrieves the instance from the dictionary by its name.\n   *\n   * @param name - Name of the instance to retrieve\n   * @returns The stored instance\n   * @throws Error if instance is not found\n   */\n  get<T>(name: string): T {\n    const entry = this.#entries.get(name);\n    if (!entry) {\n      throw new Error(`Instance '${name}' not found`);\n    }\n    return entry.instance as T;\n  }\n\n  /**\n   * Returns metadata about a registered entry, including its name and type.\n   *\n   * @param name - Name of the entry\n   * @returns Registry entry metadata or undefined if not found\n   */\n  getEntry(name: string): RegistryEntry | undefined {\n    return this.#entries.get(name);\n  }\n\n  /**\n   * Checks if an entry is registered under the name.\n   *\n   * @param name - Name to check\n   * @returns true if registered, false otherwise\n   */\n  has(name: string): boolean {\n    return this.#entries.has(name);\n  }\n\n  /**\n   * Returns a list of all registered entries with their metadata.\n   *\n   * @returns Array of {name, type} objects\n   */\n  list(): Array<{ name: string; type: string }> {\n    return Array.from(this.#entries.values()).map((entry) => ({\n      name: entry.name,\n      type: entry.type,\n    }));\n  }\n\n  /**\n   * Clears all registered entries. Useful for testing environments.\n   */\n  clear(): void {\n    this.#entries.clear();\n  }\n}\n\n// Singleton instance\nconst registryInstance = new Registry();\n\n/**\n * Returns the global instance of the Registry.\n *\n * @returns The singleton Registry instance\n */\nexport function getRegistry(): Registry {\n  return registryInstance;\n}\n"
+    }
+  },
+  "schemaVersion": "1.0",
+  "thresholds": {
+    "high": 80,
+    "low": 60,
+    "break": 50
+  },
+  "testFiles": {
+    "tests/registry-vanilla.test.js": {
+      "tests": [
+        {
+          "id": "0",
+          "name": "Registry - Vanilla JavaScript register should store an instance with a unique name"
+        },
+        {
+          "id": "1",
+          "name": "Registry - Vanilla JavaScript register should auto-detect type from constructor name"
+        },
+        {
+          "id": "2",
+          "name": "Registry - Vanilla JavaScript register should accept custom type label"
+        },
+        {
+          "id": "3",
+          "name": "Registry - Vanilla JavaScript register should throw error if name already exists"
+        },
+        {
+          "id": "4",
+          "name": "Registry - Vanilla JavaScript get should retrieve the same instance that was registered"
+        },
+        {
+          "id": "5",
+          "name": "Registry - Vanilla JavaScript get should work without TypeScript generics"
+        },
+        {
+          "id": "6",
+          "name": "Registry - Vanilla JavaScript get should throw error if instance not found"
+        },
+        {
+          "id": "7",
+          "name": "Registry - Vanilla JavaScript has should return true if entry exists"
+        },
+        {
+          "id": "8",
+          "name": "Registry - Vanilla JavaScript has should return false if entry does not exist"
+        },
+        {
+          "id": "9",
+          "name": "Registry - Vanilla JavaScript getEntry should return entry metadata when found"
+        },
+        {
+          "id": "10",
+          "name": "Registry - Vanilla JavaScript getEntry should return undefined when entry not found"
+        },
+        {
+          "id": "11",
+          "name": "Registry - Vanilla JavaScript list should return empty array when no entries"
+        },
+        {
+          "id": "12",
+          "name": "Registry - Vanilla JavaScript list should return list of all registered entries with metadata"
+        },
+        {
+          "id": "13",
+          "name": "Registry - Vanilla JavaScript clear should remove all entries"
+        },
+        {
+          "id": "14",
+          "name": "Registry - Vanilla JavaScript getRegistry should always return the same registry instance"
+        },
+        {
+          "id": "15",
+          "name": "Registry - Vanilla JavaScript getRegistry should share state across different getRegistry calls"
+        },
+        {
+          "id": "16",
+          "name": "Registry - Vanilla JavaScript practical usage - no TypeScript needed should work with plain objects"
+        }
+      ],
+      "source": "import { describe, it, expect, beforeEach } from \"vitest\";\nimport { getRegistry } from \"../src/index.ts\";\n\ndescribe(\"Registry - Vanilla JavaScript\", () => {\n  let registry;\n\n  beforeEach(() => {\n    registry = getRegistry();\n    registry.clear();\n  });\n\n  describe(\"register\", () => {\n    it(\"should store an instance with a unique name\", () => {\n      const instance = { value: \"test\" };\n      registry.register(\"test\", instance);\n\n      expect(registry.has(\"test\")).toBe(true);\n    });\n\n    it(\"should auto-detect type from constructor name\", () => {\n      class TestClass {}\n      const instance = new TestClass();\n      registry.register(\"test\", instance);\n\n      const entry = registry.getEntry(\"test\");\n      expect(entry?.type).toBe(\"TestClass\");\n    });\n\n    it(\"should accept custom type label\", () => {\n      const instance = { value: \"test\" };\n      registry.register(\"test\", instance, \"CustomType\");\n\n      const entry = registry.getEntry(\"test\");\n      expect(entry?.type).toBe(\"CustomType\");\n    });\n\n    it(\"should throw error if name already exists\", () => {\n      const instance1 = { value: \"test1\" };\n      const instance2 = { value: \"test2\" };\n\n      registry.register(\"test\", instance1);\n      expect(() => registry.register(\"test\", instance2)).toThrow(\n        \"Instance 'test' already registered\",\n      );\n    });\n  });\n\n  describe(\"get\", () => {\n    it(\"should retrieve the same instance that was registered\", () => {\n      const instance = { value: \"test\" };\n      registry.register(\"test\", instance);\n\n      const retrieved = registry.get(\"test\");\n      expect(retrieved).toBe(instance);\n      expect(retrieved.value).toBe(\"test\");\n    });\n\n    it(\"should work without TypeScript generics\", () => {\n      const instance = { value: \"test\", count: 42 };\n      registry.register(\"test\", instance);\n\n      // In vanilla JS, you just call get without generics\n      const retrieved = registry.get(\"test\");\n      expect(retrieved.value).toBe(\"test\");\n      expect(retrieved.count).toBe(42);\n    });\n\n    it(\"should throw error if instance not found\", () => {\n      expect(() => registry.get(\"nonexistent\")).toThrow(\n        \"Instance 'nonexistent' not found\",\n      );\n    });\n  });\n\n  describe(\"has\", () => {\n    it(\"should return true if entry exists\", () => {\n      registry.register(\"test\", { value: \"test\" });\n      expect(registry.has(\"test\")).toBe(true);\n    });\n\n    it(\"should return false if entry does not exist\", () => {\n      expect(registry.has(\"nonexistent\")).toBe(false);\n    });\n  });\n\n  describe(\"getEntry\", () => {\n    it(\"should return entry metadata when found\", () => {\n      const instance = { value: \"test\" };\n      registry.register(\"test\", instance, \"TestType\");\n\n      const entry = registry.getEntry(\"test\");\n      expect(entry).toBeDefined();\n      expect(entry.name).toBe(\"test\");\n      expect(entry.type).toBe(\"TestType\");\n      expect(entry.instance).toBe(instance);\n    });\n\n    it(\"should return undefined when entry not found\", () => {\n      const entry = registry.getEntry(\"nonexistent\");\n      expect(entry).toBeUndefined();\n    });\n  });\n\n  describe(\"list\", () => {\n    it(\"should return empty array when no entries\", () => {\n      expect(registry.list()).toEqual([]);\n    });\n\n    it(\"should return list of all registered entries with metadata\", () => {\n      registry.register(\"redis\", { value: \"redis\" }, \"Redis\");\n      registry.register(\"kafka\", { value: \"kafka\" }, \"Kafka\");\n      registry.register(\"sqs\", { value: \"sqs\" }, \"SQS\");\n\n      const list = registry.list();\n      expect(list).toHaveLength(3);\n      expect(list).toContainEqual({ name: \"redis\", type: \"Redis\" });\n      expect(list).toContainEqual({ name: \"kafka\", type: \"Kafka\" });\n      expect(list).toContainEqual({ name: \"sqs\", type: \"SQS\" });\n    });\n  });\n\n  describe(\"clear\", () => {\n    it(\"should remove all entries\", () => {\n      registry.register(\"test1\", { value: \"test1\" });\n      registry.register(\"test2\", { value: \"test2\" });\n\n      expect(registry.list()).toHaveLength(2);\n\n      registry.clear();\n\n      expect(registry.list()).toHaveLength(0);\n      expect(registry.has(\"test1\")).toBe(false);\n      expect(registry.has(\"test2\")).toBe(false);\n    });\n  });\n\n  describe(\"getRegistry\", () => {\n    it(\"should always return the same registry instance\", () => {\n      const registry1 = getRegistry();\n      const registry2 = getRegistry();\n\n      expect(registry1).toBe(registry2);\n    });\n\n    it(\"should share state across different getRegistry calls\", () => {\n      const registry1 = getRegistry();\n      registry1.register(\"shared\", { value: \"test\" });\n\n      const registry2 = getRegistry();\n      expect(registry2.has(\"shared\")).toBe(true);\n      expect(registry2.get(\"shared\").value).toBe(\"test\");\n    });\n  });\n\n  describe(\"practical usage - no TypeScript needed\", () => {\n    it(\"should work with plain objects\", () => {\n      // Simulate Redis client\n      const redisClient = {\n        url: \"redis://localhost:6379\",\n        isOpen: false,\n        async connect() {\n          this.isOpen = true;\n          return Promise.resolve();\n        },\n        async get(key) {\n          return `value-for-${key}`;\n        },\n      };\n\n      // Simulate API client\n      const apiClient = {\n        baseURL: \"https://api.example.com\",\n        async get(path) {\n          return { data: `Response from ${path}` };\n        },\n      };\n\n      // Register\n      registry.register(\"redis\", redisClient, \"Redis\");\n      registry.register(\"api\", apiClient, \"ApiClient\");\n\n      // Use - no TypeScript generics needed\n      const redis = registry.get(\"redis\");\n      const api = registry.get(\"api\");\n\n      expect(redis.url).toBe(\"redis://localhost:6379\");\n      expect(api.baseURL).toBe(\"https://api.example.com\");\n\n      // Can still use methods\n      expect(typeof redis.connect).toBe(\"function\");\n      expect(typeof api.get).toBe(\"function\");\n    });\n  });\n});\n\n"
+    },
+    "tests/registry.test.ts": {
+      "tests": [
+        {
+          "id": "17",
+          "name": "Registry register should store an instance with a unique name"
+        },
+        {
+          "id": "18",
+          "name": "Registry register should auto-detect type from constructor name"
+        },
+        {
+          "id": "19",
+          "name": "Registry register should accept custom type label"
+        },
+        {
+          "id": "20",
+          "name": "Registry register should throw error if name already exists"
+        },
+        {
+          "id": "21",
+          "name": "Registry get should retrieve the same instance that was registered"
+        },
+        {
+          "id": "22",
+          "name": "Registry get should support type casting with generics"
+        },
+        {
+          "id": "23",
+          "name": "Registry get should throw error if instance not found"
+        },
+        {
+          "id": "24",
+          "name": "Registry has should return true if entry exists"
+        },
+        {
+          "id": "25",
+          "name": "Registry has should return false if entry does not exist"
+        },
+        {
+          "id": "26",
+          "name": "Registry getEntry should return entry metadata when found"
+        },
+        {
+          "id": "27",
+          "name": "Registry getEntry should return undefined when entry not found"
+        },
+        {
+          "id": "28",
+          "name": "Registry list should return empty array when no entries"
+        },
+        {
+          "id": "29",
+          "name": "Registry list should return list of all registered entries with metadata"
+        },
+        {
+          "id": "30",
+          "name": "Registry clear should remove all entries"
+        },
+        {
+          "id": "31",
+          "name": "Registry getRegistry should always return the same registry instance"
+        },
+        {
+          "id": "32",
+          "name": "Registry getRegistry should share state across different getRegistry calls"
+        },
+        {
+          "id": "33",
+          "name": "Registry multiple instances of same type should support multiple instances with different names"
+        }
+      ],
+      "source": "import { beforeEach, describe, expect, it } from \"vitest\";\nimport { type Registry, getRegistry } from \"../src/index.js\";\n\ndescribe(\"Registry\", () => {\n  let registry: Registry;\n\n  beforeEach(() => {\n    registry = getRegistry();\n    registry.clear();\n  });\n\n  describe(\"register\", () => {\n    it(\"should store an instance with a unique name\", () => {\n      const instance = { value: \"test\" };\n      registry.register(\"test\", instance);\n\n      expect(registry.has(\"test\")).toBe(true);\n    });\n\n    it(\"should auto-detect type from constructor name\", () => {\n      class TestClass {}\n      const instance = new TestClass();\n      registry.register(\"test\", instance);\n\n      const entry = registry.getEntry(\"test\");\n      expect(entry?.type).toBe(\"TestClass\");\n    });\n\n    it(\"should accept custom type label\", () => {\n      const instance = { value: \"test\" };\n      registry.register(\"test\", instance, \"CustomType\");\n\n      const entry = registry.getEntry(\"test\");\n      expect(entry?.type).toBe(\"CustomType\");\n    });\n\n    it(\"should throw error if name already exists\", () => {\n      const instance1 = { value: \"test1\" };\n      const instance2 = { value: \"test2\" };\n\n      registry.register(\"test\", instance1);\n      expect(() => registry.register(\"test\", instance2)).toThrow(\n        \"Instance 'test' already registered\",\n      );\n    });\n  });\n\n  describe(\"get\", () => {\n    it(\"should retrieve the same instance that was registered\", () => {\n      const instance = { value: \"test\" };\n      registry.register(\"test\", instance);\n\n      const retrieved = registry.get(\"test\");\n      expect(retrieved).toBe(instance);\n      expect(retrieved.value).toBe(\"test\");\n    });\n\n    it(\"should support type casting with generics\", () => {\n      interface TestInterface {\n        value: string;\n      }\n\n      const instance: TestInterface = { value: \"test\" };\n      registry.register(\"test\", instance);\n\n      const retrieved = registry.get<TestInterface>(\"test\");\n      expect(retrieved.value).toBe(\"test\");\n    });\n\n    it(\"should throw error if instance not found\", () => {\n      expect(() => registry.get(\"nonexistent\")).toThrow(\"Instance 'nonexistent' not found\");\n    });\n  });\n\n  describe(\"has\", () => {\n    it(\"should return true if entry exists\", () => {\n      registry.register(\"test\", { value: \"test\" });\n      expect(registry.has(\"test\")).toBe(true);\n    });\n\n    it(\"should return false if entry does not exist\", () => {\n      expect(registry.has(\"nonexistent\")).toBe(false);\n    });\n  });\n\n  describe(\"getEntry\", () => {\n    it(\"should return entry metadata when found\", () => {\n      const instance = { value: \"test\" };\n      registry.register(\"test\", instance, \"TestType\");\n\n      const entry = registry.getEntry(\"test\");\n      expect(entry).toBeDefined();\n      expect(entry?.name).toBe(\"test\");\n      expect(entry?.type).toBe(\"TestType\");\n      expect(entry?.instance).toBe(instance);\n    });\n\n    it(\"should return undefined when entry not found\", () => {\n      const entry = registry.getEntry(\"nonexistent\");\n      expect(entry).toBeUndefined();\n    });\n  });\n\n  describe(\"list\", () => {\n    it(\"should return empty array when no entries\", () => {\n      expect(registry.list()).toEqual([]);\n    });\n\n    it(\"should return list of all registered entries with metadata\", () => {\n      registry.register(\"redis\", { value: \"redis\" }, \"Redis\");\n      registry.register(\"kafka\", { value: \"kafka\" }, \"Kafka\");\n      registry.register(\"sqs\", { value: \"sqs\" }, \"SQS\");\n\n      const list = registry.list();\n      expect(list).toHaveLength(3);\n      expect(list).toContainEqual({ name: \"redis\", type: \"Redis\" });\n      expect(list).toContainEqual({ name: \"kafka\", type: \"Kafka\" });\n      expect(list).toContainEqual({ name: \"sqs\", type: \"SQS\" });\n    });\n  });\n\n  describe(\"clear\", () => {\n    it(\"should remove all entries\", () => {\n      registry.register(\"test1\", { value: \"test1\" });\n      registry.register(\"test2\", { value: \"test2\" });\n\n      expect(registry.list()).toHaveLength(2);\n\n      registry.clear();\n\n      expect(registry.list()).toHaveLength(0);\n      expect(registry.has(\"test1\")).toBe(false);\n      expect(registry.has(\"test2\")).toBe(false);\n    });\n  });\n\n  describe(\"getRegistry\", () => {\n    it(\"should always return the same registry instance\", () => {\n      const registry1 = getRegistry();\n      const registry2 = getRegistry();\n\n      expect(registry1).toBe(registry2);\n    });\n\n    it(\"should share state across different getRegistry calls\", () => {\n      const registry1 = getRegistry();\n      registry1.register(\"shared\", { value: \"test\" });\n\n      const registry2 = getRegistry();\n      expect(registry2.has(\"shared\")).toBe(true);\n      expect(registry2.get(\"shared\")).toEqual({ value: \"test\" });\n    });\n  });\n\n  describe(\"multiple instances of same type\", () => {\n    it(\"should support multiple instances with different names\", () => {\n      const redis1 = { url: \"redis://cache:6379\" };\n      const redis2 = { url: \"redis://session:6379\" };\n      const redis3 = { url: \"redis://metrics:6379\" };\n\n      registry.register(\"cacheRedis\", redis1, \"Redis\");\n      registry.register(\"sessionRedis\", redis2, \"Redis\");\n      registry.register(\"metricsRedis\", redis3, \"Redis\");\n\n      expect(registry.get(\"cacheRedis\")).toBe(redis1);\n      expect(registry.get(\"sessionRedis\")).toBe(redis2);\n      expect(registry.get(\"metricsRedis\")).toBe(redis3);\n\n      const list = registry.list();\n      expect(list.filter((e) => e.type === \"Redis\")).toHaveLength(3);\n    });\n  });\n});\n"
+    }
+  },
+  "projectRoot": "/Users/gabrielalejandrogomez/source/libs/hyper/syntrojs-singleton",
+  "config": {
+    "packageManager": "npm",
+    "testRunner": "vitest",
+    "coverageAnalysis": "off",
+    "mutate": [
+      "src/**/*.ts",
+      "!src/**/*.test.ts",
+      "!src/**/*.spec.ts"
+    ],
+    "vitest": {
+      "configFile": "vitest.config.ts"
+    },
+    "thresholds": {
+      "high": 80,
+      "low": 60,
+      "break": 50
+    },
+    "reporters": [
+      "progress",
+      "clear-text"
+    ],
+    "htmlReporter": {
+      "fileName": "reports/mutation/index.html"
+    },
+    "jsonReporter": {
+      "fileName": "reports/mutation/mutation-report.json"
+    },
+    "plugins": [
+      "@stryker-mutator/vitest-runner"
+    ],
+    "tsconfigFile": "tsconfig.json",
+    "concurrency": 2,
+    "timeoutMS": 20000,
+    "timeoutFactor": 1.5,
+    "disableTypeChecks": "{test,spec}/**/*.{js,ts}",
+    "mutator": {
+      "excludedMutations": [
+        "StringLiteral",
+        "ObjectLiteral"
+      ],
+      "plugins": null
+    },
+    "incremental": true,
+    "incrementalFile": "reports/mutation/stryker-incremental.json",
+    "maxTestRunnerReuse": 50,
+    "cleanTempDir": true,
+    "allowConsoleColors": true,
+    "checkers": [],
+    "checkerNodeArgs": [],
+    "commandRunner": {
+      "command": "npm test"
+    },
+    "clearTextReporter": {
+      "allowColor": true,
+      "allowEmojis": false,
+      "logTests": true,
+      "maxTestsToLog": 3,
+      "reportTests": true,
+      "reportMutants": true,
+      "reportScoreTable": true,
+      "skipFull": false
+    },
+    "dashboard": {
+      "baseUrl": "https://dashboard.stryker-mutator.io/api/reports",
+      "reportType": "full"
+    },
+    "dryRunOnly": false,
+    "eventReporter": {
+      "baseDir": "reports/mutation/events"
+    },
+    "ignorePatterns": [],
+    "ignoreStatic": false,
+    "force": false,
+    "fileLogLevel": "off",
+    "inPlace": false,
+    "logLevel": "info",
+    "maxConcurrentTestRunners": 9007199254740991,
+    "appendPlugins": [],
+    "symlinkNodeModules": true,
+    "tempDirName": ".stryker-tmp",
+    "testRunnerNodeArgs": [],
+    "dryRunTimeoutMinutes": 5,
+    "warnings": true,
+    "disableBail": false,
+    "allowEmpty": false,
+    "ignorers": []
+  },
+  "framework": {
+    "name": "StrykerJS",
+    "version": "8.7.1",
+    "branding": {
+      "homepageUrl": "https://stryker-mutator.io",
+      "imageUrl": "data:image/svg+xml;utf8,%3Csvg viewBox='0 0 1458 1458' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='2'%3E%3Cpath fill='none' d='M0 0h1458v1458H0z'/%3E%3CclipPath id='a'%3E%3Cpath d='M0 0h1458v1458H0z'/%3E%3C/clipPath%3E%3Cg clip-path='url(%23a)'%3E%3Cpath d='M1458 729c0 402.655-326.345 729-729 729S0 1131.655 0 729C0 326.445 326.345 0 729 0s729 326.345 729 729' fill='%23e74c3c' fill-rule='nonzero'/%3E%3Cpath d='M778.349 1456.15L576.6 1254.401l233-105 85-78.668v-64.332l-257-257-44-187-50-208 251.806-82.793L1076.6 389.401l380.14 379.15c-19.681 367.728-311.914 663.049-678.391 687.599z' fill-opacity='.3'/%3E%3Cpath d='M753.4 329.503c41.79 0 74.579 7.83 97.925 25.444 23.571 18.015 41.69 43.956 55.167 77.097l11.662 28.679 165.733-58.183-14.137-32.13c-26.688-60.655-64.896-108.61-114.191-144.011-49.329-35.423-117.458-54.302-204.859-54.302-50.78 0-95.646 7.376-134.767 21.542-40.093 14.671-74.09 34.79-102.239 60.259-28.84 26.207-50.646 57.06-65.496 92.701-14.718 35.052-22.101 72.538-22.101 112.401 0 72.536 20.667 133.294 61.165 182.704 38.624 47.255 98.346 88.037 179.861 121.291 42.257 17.475 78.715 33.125 109.227 46.994 27.193 12.361 49.294 26.124 66.157 41.751 15.309 14.186 26.497 30.584 33.63 49.258 7.721 20.214 11.16 45.69 11.16 76.402 0 28.021-4.251 51.787-13.591 71.219-8.832 18.374-20.171 33.178-34.523 44.219-14.787 11.374-31.193 19.591-49.393 24.466-19.68 5.359-39.14 7.993-58.69 7.993-29.359 0-54.387-3.407-75.182-10.747-20.112-7.013-37.144-16.144-51.259-27.486-13.618-11.009-24.971-23.766-33.744-38.279-9.64-15.8-17.272-31.924-23.032-48.408l-10.965-31.376-161.669 60.585 10.734 30.124c10.191 28.601 24.197 56.228 42.059 82.748 18.208 27.144 41.322 51.369 69.525 72.745 27.695 21.075 60.904 38.218 99.481 51.041 37.777 12.664 82.004 19.159 132.552 19.159 49.998 0 95.818-8.321 137.611-24.622 42.228-16.471 78.436-38.992 108.835-67.291 30.719-28.597 54.631-62.103 71.834-100.642 17.263-38.56 25.923-79.392 25.923-122.248 0-54.339-8.368-100.37-24.208-138.32-16.29-38.759-38.252-71.661-65.948-98.797-26.965-26.418-58.269-48.835-93.858-67.175-33.655-17.241-69.196-33.11-106.593-47.533-35.934-13.429-65.822-26.601-89.948-39.525-22.153-11.868-40.009-24.21-53.547-37.309-11.429-11.13-19.83-23.678-24.718-37.664-5.413-15.49-7.98-33.423-7.98-53.577 0-40.883 11.293-71.522 37.086-90.539 28.443-20.825 64.985-30.658 109.311-30.658z' fill='%23f1c40f' fill-rule='nonzero'/%3E%3Cpath d='M720 0h18v113h-18zM1458 738v-18h-113v18h113zM720 1345h18v113h-18zM113 738v-18H0v18h113z'/%3E%3C/g%3E%3C/svg%3E"
+    },
+    "dependencies": {
+      "@stryker-mutator/typescript-checker": "8.7.1",
+      "typescript": "5.9.3"
+    }
+  }
+}
