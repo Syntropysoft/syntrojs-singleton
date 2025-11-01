@@ -1,8 +1,27 @@
-# @syntrojs/singleton
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Syntropysoft/syntrojs-singleton/main/assets/beaconLog-2.png" alt="SyntroJS Singleton Logo" width="170"/>
+  <h1 align="center">@syntrojs/singleton</h1>
+  <p align="center"><b>Simple, type-safe singleton pattern</b></p>
+</p>
 
-[![NPM version](https://img.shields.io/npm/v/@syntrojs/singleton.svg)](https://www.npmjs.com/package/@syntrojs/singleton)
-[![Build Status](https://img.shields.io/travis/syntrojs/syntrojs.svg?branch=main)](https://travis-ci.org/syntrojs/syntrojs)
-[![License](https://img.shields.io/npm/l/@syntrojs/singleton.svg)](https://github.com/syntrojs/syntrojs/blob/main/LICENSE)
+[![npm version](https://img.shields.io/npm/v/@syntrojs/singleton.svg)](https://www.npmjs.com/package/@syntrojs/singleton)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/Syntropysoft/syntrojs-singleton/blob/main/LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-optional-blue.svg)](https://www.typescriptlang.org/)
+
+**Cross-Platform:**
+
+[![Node.js](https://img.shields.io/badge/Node.js-✓-brightgreen.svg)](https://nodejs.org/)
+[![Bun](https://img.shields.io/badge/Bun-✓-brightgreen.svg)](https://bun.sh/)
+[![Browser](https://img.shields.io/badge/Browser-✓-brightgreen.svg)](https://developer.mozilla.org/)
+[![Vanilla JS](https://img.shields.io/badge/Vanilla%20JS-✓-brightgreen.svg)](https://developer.mozilla.org/)
+
+**Code Coverage:**
+
+[![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)](https://github.com/Syntropysoft/syntrojs-singleton)
+[![Mutation Score](https://img.shields.io/badge/mutation%20score-95.45%25-brightgreen.svg)](https://github.com/Syntropysoft/syntrojs-singleton)
+[![Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)](https://github.com/Syntropysoft/syntrojs-singleton)
+
+---
 
 A simple, type-safe abstraction for the singleton pattern. Works in Node.js, Bun, browser environments, and vanilla JavaScript. Instead of implementing your own singleton logic, use this library to register instances once and retrieve them from anywhere in your application.
 
